@@ -10,23 +10,74 @@
 
   <body>
     <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
-   <nav class="navbar navbar-light bg-light pr-5 pl-5">
-     <a href="#" class="navbar-brand text-dark">Mohamed and Xavier</a>
-     <div class="collapse navbar-collapse">
-      <ul class="navbar-nav d-flex">
-        <li class="nav-item">
-          <a href="" class="nav-link">Features</a>
-        </li>
-        <li class="nav-item">
-         <a href="" class="nav-link">How It Works</a>
-       </li>
-       <li class="nav-item">
-         <a href="" class="nav-link">Pricing</a>
-       </li>
-      </ul>
-     </div>
-     
-   </nav>
+
+    <header id="header">
+      <nav id="nav-bar" class="navbar navbar-light bg-light pr-5 pl-5 ">
+        <div class="container">
+          <a href="" class="navbar-brand">
+            <img id="header-img" class="mr-2" src="img/logo.jpg" width="40" height="40"  alt="">  Mohamemed and Xavier
+          </a>  
+        <ul class="navbar-nav d-flex flex-row justify-content-between">
+          <li class="nav-item pr-5">
+            <a href="" class="nav-link">Features</a>
+          </li>
+          <li class="nav-item pr-5">
+           <a href="" class="nav-link">How It Works</a>
+         </li>
+         <li class="nav-item">
+           <a href="" class="nav-link">Pricing</a>
+         </li>
+        </ul>
+      </div>
+      </nav>
+    </header>
+
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-xm-12 col-sm-12 col-lg-6 text-center">
+          <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+            <h4>Handcrafted, home-made masterpieces</h4>
+            <div class="form-group">
+              <input type="email" id="email" class="form-control"  placeholder="enter your email adress" required>
+              <button type="submit" class="btn btn-warning m-2"><strong>GET STARTED</strong></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <section id="features">
+      <div class="container mt-5">
+        <div class="row justify-content-center m-5">
+          <div class="col-12 col-sm-3 offset-sm-1">
+            <img id="header-img"  src="img/logo.jpg" width="100"   alt="">
+          </div>
+          <div class="col-auto">
+            <h4>Premium Materials</h4>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center m-5">
+          <div class="col-12 col-sm-3 offset-sm-1">
+            <img id="header-img"  src="img/logo.jpg" width="100"   alt="">
+          </div>
+          <div class="col-auto">
+            <h4>Fast Shipping</h4>
+            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center m-5">
+          <div class="col-12 col-sm-3 offset-sm-1">
+            <img id="header-img"  src="img/logo.jpg" width="100"   alt="">
+          </div>
+          <div class="col-auto">
+            <h4>Quality Assurance</h4>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
 
     <script  src="js/index.js"></script>
   </body>
